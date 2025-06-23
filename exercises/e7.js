@@ -39,7 +39,6 @@ export function parsePromised(json) {
  */
 
 export function onReject(error) {
-  // Your code goes here...
   console.log(error.message);
 }
 
@@ -56,7 +55,6 @@ export function onReject(error) {
  */
 
 export const handlePromise = (promise) => {
-  // Your code goes here...
   return promise
     .then((value) => value)
     .catch((error) => {

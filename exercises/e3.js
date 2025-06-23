@@ -15,7 +15,6 @@
  * Example: export const getPromise(num) => return <Your code of promise>
  */
 export const getPromise = (num) => {
-  // Your code goes here...
   if (Number.isInteger(num)) {
     return new Promise((resolve) => {
       resolve(num);
@@ -37,7 +36,6 @@ export const getPromise = (num) => {
  * * if you have solved it successfully, the updateSumValue() function will return the value of 10;
  */
 export const updateSumValue = () => {
-  // Your code goes here...
   let sum = 2;
   getPromise(120).then(value => {
     sum += value;
